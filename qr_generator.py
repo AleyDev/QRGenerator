@@ -3,7 +3,7 @@ import pyqrcode
 
 
 # Kullanıcıdan QR kodunu oluşturmak için bir URL girmesini istiyorum.
-url = input("Enter url to generate qr code: ")
+url = input("Enter url to generate qr code: ")  # https://www.instagram.com/alkkaaya/ ----------> kendi Instagram adresim için denedim.
 
 # Kullanıcının girdiği URL'yi kullanarak QR kodunu oluşturuyorum.
 qr_code = pyqrcode.create(url)
